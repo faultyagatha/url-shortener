@@ -13,7 +13,7 @@ func main() {
 
 	paths := map[string]string{
 		"/agatha":    "https://faultyagatha.github.io",
-		"/portfolio": "https://faultyagatha.github.io/devprofile",
+		"/portfolio": "https://faultyagatha.github.io/devprofile/",
 	}
 	mapHandler := handler.MapHandler(paths, mux)
 
